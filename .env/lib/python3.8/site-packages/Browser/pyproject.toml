@@ -1,0 +1,15 @@
+[tool.black]
+target-version = ['py38']
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | generated
+)/
+'''

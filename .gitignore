@@ -1,0 +1,4 @@
+node_modules/
+.env/lib/python3.8/
+.idea/
+.env/

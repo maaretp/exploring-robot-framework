@@ -1,0 +1,161 @@
+Listening on 55972
+Undefined active page
+Undefined active page
+Changed active context
+Changed active page
+2020-07-17T17:18:45.425Z pw:api => page.goto started
+2020-07-17T17:18:45.426Z pw:api navigating to "http://selenium.thinkcode.se/selectColor", waiting until "load" []
+2020-07-17T17:18:52.022Z pw:api navigated to "http://selenium.thinkcode.se/selectColor" []
+2020-07-17T17:18:52.744Z pw:api "domcontentloaded" event fired []
+2020-07-17T17:18:53.001Z pw:api "load" event fired []
+2020-07-17T17:18:53.002Z pw:api <= page.goto succeeded
+2020-07-17T17:18:53.010Z pw:api => page.check started
+2020-07-17T17:18:53.010Z pw:api waiting for selector "input[name=color][value=red]" []
+2020-07-17T17:18:53.042Z pw:api   selector resolved to visible <input value="red" name="color" type="checkbox"/> []
+2020-07-17T17:18:53.049Z pw:api attempting page.check action []
+2020-07-17T17:18:53.050Z pw:api   waiting for element to be visible, enabled and not moving []
+2020-07-17T17:18:53.072Z pw:api   element is visible, enabled and does not move []
+2020-07-17T17:18:53.072Z pw:api   scrolling into view if needed []
+2020-07-17T17:18:53.075Z pw:api   done scrolling []
+2020-07-17T17:18:53.077Z pw:api   checking that element receives pointer events at (91.5,50.5) []
+2020-07-17T17:18:53.082Z pw:api   element does receive pointer events []
+2020-07-17T17:18:53.083Z pw:api   performing page.check action []
+2020-07-17T17:18:53.114Z pw:api   page.check action done []
+2020-07-17T17:18:53.114Z pw:api   waiting for scheduled navigations to finish []
+2020-07-17T17:18:53.115Z pw:api   navigations have finished []
+2020-07-17T17:18:53.117Z pw:api <= page.check succeeded
+2020-07-17T17:18:53.121Z pw:api => page.check started
+2020-07-17T17:18:53.121Z pw:api waiting for selector "input[name=color][value=green]" []
+2020-07-17T17:18:53.125Z pw:api   selector resolved to visible <input name="color" value="green" type="checkbox"/> []
+2020-07-17T17:18:53.129Z pw:api attempting page.check action []
+2020-07-17T17:18:53.129Z pw:api   waiting for element to be visible, enabled and not moving []
+2020-07-17T17:18:53.137Z pw:api   element is visible, enabled and does not move []
+2020-07-17T17:18:53.138Z pw:api   scrolling into view if needed []
+2020-07-17T17:18:53.139Z pw:api   done scrolling []
+2020-07-17T17:18:53.142Z pw:api   checking that element receives pointer events at (91.5,94.5) []
+2020-07-17T17:18:53.149Z pw:api   element does receive pointer events []
+2020-07-17T17:18:53.149Z pw:api   performing page.check action []
+2020-07-17T17:18:53.159Z pw:api   page.check action done []
+2020-07-17T17:18:53.159Z pw:api   waiting for scheduled navigations to finish []
+2020-07-17T17:18:53.160Z pw:api   navigations have finished []
+2020-07-17T17:18:53.162Z pw:api <= page.check succeeded
+2020-07-17T17:18:53.165Z pw:api => page.check started
+2020-07-17T17:18:53.165Z pw:api waiting for selector "input[name=color][value=blue]" []
+2020-07-17T17:18:53.169Z pw:api   selector resolved to visible <input name="color" value="blue" type="checkbox"/> []
+2020-07-17T17:18:53.173Z pw:api attempting page.check action []
+2020-07-17T17:18:53.173Z pw:api   waiting for element to be visible, enabled and not moving []
+2020-07-17T17:18:53.188Z pw:api   element is visible, enabled and does not move []
+2020-07-17T17:18:53.189Z pw:api   scrolling into view if needed []
+2020-07-17T17:18:53.190Z pw:api   done scrolling []
+2020-07-17T17:18:53.191Z pw:api   checking that element receives pointer events at (91.5,72.5) []
+2020-07-17T17:18:53.198Z pw:api   element does receive pointer events []
+2020-07-17T17:18:53.198Z pw:api   performing page.check action []
+2020-07-17T17:18:53.203Z pw:api   page.check action done []
+2020-07-17T17:18:53.203Z pw:api   waiting for scheduled navigations to finish []
+2020-07-17T17:18:53.204Z pw:api   navigations have finished []
+2020-07-17T17:18:53.205Z pw:api <= page.check succeeded
+2020-07-17T17:18:53.209Z pw:api => page.click started
+2020-07-17T17:18:53.209Z pw:api waiting for selector "input[type=submit]" []
+2020-07-17T17:18:53.212Z pw:api   selector resolved to visible <input type="submit" value="Submit"/> []
+2020-07-17T17:18:53.216Z pw:api attempting page.click action []
+2020-07-17T17:18:53.217Z pw:api   waiting for element to be visible, enabled and not moving []
+2020-07-17T17:18:53.236Z pw:api   element is visible, enabled and does not move []
+2020-07-17T17:18:53.237Z pw:api   scrolling into view if needed []
+2020-07-17T17:18:53.238Z pw:api   done scrolling []
+2020-07-17T17:18:53.241Z pw:api   checking that element receives pointer events at (115.31,139) []
+2020-07-17T17:18:53.245Z pw:api   element does receive pointer events []
+2020-07-17T17:18:53.246Z pw:api   performing page.click action []
+2020-07-17T17:18:53.251Z pw:api   page.click action done []
+2020-07-17T17:18:53.251Z pw:api   waiting for scheduled navigations to finish []
+2020-07-17T17:18:53.350Z pw:api navigated to "http://selenium.thinkcode.se/selectColor" []
+2020-07-17T17:18:53.351Z pw:api   navigations have finished []
+2020-07-17T17:18:53.352Z pw:api <= page.click succeeded
+2020-07-17T17:18:53.359Z pw:api => page.waitForSelector started
+2020-07-17T17:18:53.359Z pw:api waiting for selector "//body" []
+2020-07-17T17:18:53.635Z pw:api   selector resolved to visible <body>…</body> []
+2020-07-17T17:18:53.647Z pw:api <= page.waitForSelector succeeded
+Retrieved dom property for element //body containing 
+You wanted:
+red
+blue
+green
+
+ 
+
+ 
+
+thomas@thinkcode.se
+
+Definition of done: Working software, in production.
+
+© Think Code AB
+2020-07-17T17:18:53.676Z pw:api => page.waitForSelector started
+2020-07-17T17:18:53.677Z pw:api waiting for selector "//*[contains(text(),"blue")]" []
+2020-07-17T17:18:53.680Z pw:api   selector resolved to visible <li name="color">blue</li> []
+2020-07-17T17:18:53.685Z pw:api <= page.waitForSelector succeeded
+Retrieved dom property for element //*[contains(text(),"blue")] containing blue
+2020-07-17T17:18:53.697Z pw:api => page.waitForSelector started
+2020-07-17T17:18:53.697Z pw:api waiting for selector "//*[contains(text(), "green")]" []
+2020-07-17T17:18:53.702Z pw:api   selector resolved to visible <li name="color">green</li> []
+2020-07-17T17:18:53.708Z pw:api <= page.waitForSelector succeeded
+Retrieved dom property for element //*[contains(text(), "green")] containing green
+2020-07-17T17:18:53.722Z pw:api => page.waitForSelector started
+2020-07-17T17:18:53.722Z pw:api waiting for selector "//*[contains(text(), "red")]" []
+2020-07-17T17:18:53.728Z pw:api   selector resolved to visible <li name="color">red</li> []
+2020-07-17T17:18:53.736Z pw:api <= page.waitForSelector succeeded
+Retrieved dom property for element //*[contains(text(), "red")] containing red
+Undefined active page
+Undefined active page
+Changed active context
+Changed active page
+2020-07-17T17:18:54.229Z pw:api => page.goto started
+2020-07-17T17:18:54.229Z pw:api navigating to "http://selenium.thinkcode.se/exchangeRate", waiting until "load" []
+2020-07-17T17:18:54.381Z pw:api navigated to "http://selenium.thinkcode.se/exchangeRate" []
+2020-07-17T17:18:54.882Z pw:api "domcontentloaded" event fired []
+2020-07-17T17:18:55.069Z pw:api "load" event fired []
+2020-07-17T17:18:55.070Z pw:api <= page.goto succeeded
+2020-07-17T17:18:55.074Z pw:api => page.fill started
+2020-07-17T17:18:55.074Z pw:api waiting for selector "#from" []
+2020-07-17T17:18:55.088Z pw:api   selector resolved to visible <input id="from" type="text" name="from"/> []
+2020-07-17T17:18:55.092Z pw:api elementHandle.fill("USD") []
+2020-07-17T17:18:55.092Z pw:api   waiting for element to be visible, enabled and editable []
+2020-07-17T17:18:55.130Z pw:api   element is visible, enabled and editable []
+2020-07-17T17:18:55.138Z pw:api <= page.fill succeeded
+2020-07-17T17:18:55.141Z pw:api => page.fill started
+2020-07-17T17:18:55.142Z pw:api waiting for selector "#to" []
+2020-07-17T17:18:55.145Z pw:api   selector resolved to visible <input id="to" name="to" type="text"/> []
+2020-07-17T17:18:55.149Z pw:api elementHandle.fill("EUR") []
+2020-07-17T17:18:55.149Z pw:api   waiting for element to be visible, enabled and editable []
+2020-07-17T17:18:55.156Z pw:api   element is visible, enabled and editable []
+2020-07-17T17:18:55.159Z pw:api <= page.fill succeeded
+2020-07-17T17:18:55.162Z pw:api => page.click started
+2020-07-17T17:18:55.163Z pw:api waiting for selector "input[type=submit]" []
+2020-07-17T17:18:55.166Z pw:api   selector resolved to visible <input type="submit" value="Request exchange rate"/> []
+2020-07-17T17:18:55.174Z pw:api attempting page.click action []
+2020-07-17T17:18:55.174Z pw:api   waiting for element to be visible, enabled and not moving []
+2020-07-17T17:18:55.206Z pw:api   element is visible, enabled and does not move []
+2020-07-17T17:18:55.206Z pw:api   scrolling into view if needed []
+2020-07-17T17:18:55.207Z pw:api   done scrolling []
+2020-07-17T17:18:55.209Z pw:api   checking that element receives pointer events at (165.47,95) []
+2020-07-17T17:18:55.213Z pw:api   element does receive pointer events []
+2020-07-17T17:18:55.213Z pw:api   performing page.click action []
+2020-07-17T17:18:55.221Z pw:api   page.click action done []
+2020-07-17T17:18:55.221Z pw:api   waiting for scheduled navigations to finish []
+2020-07-17T17:18:55.305Z pw:api navigated to "http://selenium.thinkcode.se/exchangeRate" []
+2020-07-17T17:18:55.306Z pw:api   navigations have finished []
+2020-07-17T17:18:55.306Z pw:api <= page.click succeeded
+2020-07-17T17:18:55.314Z pw:api => page.waitForSelector started
+2020-07-17T17:18:55.314Z pw:api waiting for selector "#waitingMessage" to be hidden []
+2020-07-17T17:18:55.338Z pw:api <= page.waitForSelector succeeded
+2020-07-17T17:18:55.343Z pw:api => page.waitForSelector started
+2020-07-17T17:18:55.344Z pw:api waiting for selector "#exchangeRate" to be hidden []
+2020-07-17T17:18:55.353Z pw:api <= page.waitForSelector succeeded
+2020-07-17T17:18:55.357Z pw:api => page.waitForSelector started
+2020-07-17T17:18:55.358Z pw:api waiting for selector "#exchangeRate" []
+2020-07-17T17:18:55.589Z pw:api   selector resolved to visible <p id="exchangeRate">↵            The exchange rate from USD to EUR is…</p> []
+2020-07-17T17:18:55.598Z pw:api <= page.waitForSelector succeeded
+Retrieved dom property for element #exchangeRate containing The exchange rate from USD to EUR is 2.07
+Undefined active page
+Undefined active page
+Undefined active page
+Undefined active page
