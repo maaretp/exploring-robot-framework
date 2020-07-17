@@ -1,7 +1,20 @@
 *** Settings ***
 Library           Browser   enable_playwright_debug=true
 
+*** Variables ***
+${URL}       http://selenium.thinkcode.se/
+${BROWSER}     chromium
+${HEADLESS}     headless:false
+
 *** Test Cases ***
+
+Find Hello World
+    Open Browser    ${URL}      ${BROWSER}         ${HEADLESS}
+    Click           \#helloWorld
+    Get Text        \#headline  equal  Hello, world!
+    [Teardown]      Close Browser
+
+
 Checkboxes
     open browser    http://selenium.thinkcode.se/selectColor    headless=false
     check checkbox    input[name=color][value=red]
@@ -23,3 +36,5 @@ Exchage Rates
     wait for elements state  \#waitingMessage  hidden
     wait for elements state  \#exchangeRate  hidden
     get text    \#exchangeRate  shouldbe  The exchange rate from USD to EUR is 2.07
+
+

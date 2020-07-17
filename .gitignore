@@ -2,3 +2,8 @@ node_modules/
 .env/lib/python3.8/
 .idea/
 .env/
+log.html
+output.xml
+playwright-log.txt
+report.html
+*.png

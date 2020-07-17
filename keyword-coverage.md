@@ -9,7 +9,7 @@ Clear Text |
 Click | Yes | No
 Click With Options |
 Close All Browsers  |
-Close Browser  |
+Close Browser  | Yes | No | headless=false does not work on mac
 Close Context |
 Close Page  |
 Create Browser |
