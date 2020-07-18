@@ -4,7 +4,7 @@ Keyword | Used | Covered | Notes
 :--- | :--- | :--- | :---
 Add Style Tag | 
 Auto Activate Pages |
-Check Checkbox | Yes | No
+Check Checkbox | Yes | No | Weird that this is also radiobutton keyword, should be Check Option
 Clear Text |
 Click | Yes | No
 Click With Options |
@@ -22,7 +22,7 @@ Fill Text | Yes | No
 Focus |
 Get Attribute |
 Get Browser Catalog |
-Get Checkbox State |
+Get Checkbox State | Yes | No | Weird this is also radiobuttons. 
 Get Element Count |
 Get Page State |
 Get Selected Options |

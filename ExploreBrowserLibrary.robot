@@ -21,6 +21,7 @@ Request Password
     Click           [name=submit]
     Get Text        \#confirmation      contains    sent to MyAccount
     Get Text        \#confirmation      shouldnotbe    A new password has been sent to YourAccount
+    [Teardown]      Close Browser
 
 Select All Colors and Mess Up kEyWorD caPitAliZation
     [Tags]          ColorPicker
@@ -34,6 +35,7 @@ Select All Colors and Mess Up kEyWorD caPitAliZation
     should be equal     ${blue}   blue
     get text        //*[contains(text(), "green")]  shouldbe     green
     get text        //*[contains(text(), "red")]
+    [Teardown]      Close Browser
 
 Select One Color
     [Tags]          ColorPicker
@@ -41,6 +43,17 @@ Select One Color
     Check Checkbox  input[name=color][value=blue]
     Click           input[type=submit]
     get text        li    equal      blue
+    [Teardown]      Close Browser
+
+Select Beverage
+    [Tags]              Beverage
+    Open Browser        http://selenium.thinkcode.se/selectBeverage    headless=false
+    Check Checkbox      input[type=radio][value=tea]
+    Click               input[type=radio][value=coffee]
+    Get Checkbox State  input[type=radio][value=coffee]     equal   ${TRUE}
+    Get Checkbox State  input[type=radio][value=tea]        equal   ${FALSE}
+
+
 
 Exchage Rates
     [tags]  exchange
