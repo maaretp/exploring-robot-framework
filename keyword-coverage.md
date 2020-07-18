@@ -26,7 +26,7 @@ Get Checkbox State |
 Get Element Count |
 Get Page State |
 Get Selected Options |
-Get Text | Yes | No | Why equal without s, but contains with s? why li as css locator doesn't work?
+Get Text | Yes | No | Why equal without s, but contains with s? 
 Get Textfield Value |
 Get Title |
 Get Url |
