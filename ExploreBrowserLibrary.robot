@@ -35,6 +35,7 @@ Select All Colors and Mess Up kEyWorD caPitAliZation
     should be equal     ${blue}   blue
     get text        //*[contains(text(), "green")]  shouldbe     green
     get text        //*[contains(text(), "red")]
+    Get Element Count   css=li     equal    3
     [Teardown]      Close Browser
 
 Select One Color
@@ -46,13 +47,19 @@ Select One Color
     [Teardown]      Close Browser
 
 Select Beverage
-    [Tags]              Beverage
-    Open Browser        http://selenium.thinkcode.se/selectBeverage    headless=false
-    Check Checkbox      input[type=radio][value=tea]
-    Click               input[type=radio][value=coffee]
-    Get Checkbox State  input[type=radio][value=coffee]     equal   ${TRUE}
-    Get Checkbox State  input[type=radio][value=tea]        equal   ${FALSE}
+    [Tags]                  Beverage
+    Open Browser            http://selenium.thinkcode.se/selectBeverage    headless=false
+    Get Checkbox State      input[type=radio][value=coffee]        equal   ${EMPTY}
+    #Get Selected Options    input[type=radio][value=coffee]   value     equal    ${EMPTY}
+    Check Checkbox          input[type=radio][value=tea]
+    Get Checkbox State      input[type=radio][value=tea]        equal   ${TRUE}
+    Click                   input[type=radio][value=coffee]
+    Get Checkbox State      input[type=radio][value=coffee]     equal   ${TRUE}
+    Get Checkbox State      input[type=radio][value=tea]        equal   ${FALSE}
 
+Select Condiment
+    [Tags]                  Condiment
+    Open Browser            http://selenium.thinkcode.se/selectCondiment    headless=false
 
 
 Exchage Rates

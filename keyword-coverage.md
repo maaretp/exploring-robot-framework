@@ -1,5 +1,11 @@
 ### v.0.8.0 Browser
 
+# General Questions
+
+   * How much of these keywords represent actual need of doing this? I feel there 
+     are keywords that either should not be needed or belong for me to the category 
+     of them being needed only as the WebUI isn't changeable. 
+
 Keyword | Used | Covered | Notes
 :--- | :--- | :--- | :---
 Add Style Tag | 
@@ -23,9 +29,9 @@ Focus |
 Get Attribute |
 Get Browser Catalog |
 Get Checkbox State | Yes | No | Weird this is also radiobuttons. 
-Get Element Count |
+Get Element Count | Yes | No
 Get Page State |
-Get Selected Options |
+Get Selected Options | No | No | I could not figure out how to use this
 Get Text | Yes | No | Why equal without s, but contains with s? 
 Get Textfield Value |
 Get Title |
