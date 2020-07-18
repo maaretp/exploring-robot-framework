@@ -9,7 +9,7 @@ Clear Text |
 Click | Yes | No
 Click With Options |
 Close All Browsers  |
-Close Browser  | Yes | No | headless=false does not work on mac
+Close Browser  | Yes | No | headless=false does not work on 0.8.0
 Close Context |
 Close Page  |
 Create Browser |
@@ -26,7 +26,7 @@ Get Checkbox State |
 Get Element Count |
 Get Page State |
 Get Selected Options |
-Get Text | Yes | No
+Get Text | Yes | No | Why equal without s, but contains with s? why li as css locator doesn't work?
 Get Textfield Value |
 Get Title |
 Get Url |
@@ -53,6 +53,6 @@ Switch Context |
 Switch Page |
 Take Page Screenshot |
 Type Secret |
-Type Text |
+Type Text | Yes | No
 Uncheck Checkbox |
 Wait For Elements State | Yes | No | Bug?
