@@ -60,6 +60,13 @@ Select Beverage
 Select Condiment
     [Tags]                  Condiment
     Open Browser            http://selenium.thinkcode.se/selectCondiment    headless=false
+    Get Checkbox State      css=#condiments [value=sugar]    equal   ${FALSE}
+    Check Checkbox          css=#condiments [value=sugar]
+    #Get Checkbox State      css=#condiments [value=sugar]    equal   ${TRUE}
+    Get Checkbox State      css=#condiments [value=milk]    equal   ${FALSE}
+    Get Checkbox State      css=#condiments [value=sugar & milk]    equal   ${FALSE}
+
+
 
 
 Exchage Rates
