@@ -18,9 +18,9 @@ Close All Browsers  |
 Close Browser  | Yes | No | headless=false does not work on 0.8.0
 Close Context |
 Close Page  |
-Create Browser |
-Create Context |
-Create Page |
+New Browser |
+New Context |
+New Page |
 Deselect Options  |
 Execute Javascript On Page |
 Fill Secret |
@@ -41,17 +41,17 @@ Go Back |
 Go Forward |
 Go To |
 Highlight Element |
-Local Storage Clear |
-Local Storage Get |
-Local Storage Remove |
-Local Storage Set |
+LocalStorage Clear |
+LocalStorage Get |
+LocalStorage Remove |
+LocalStorage Set |
 Open Browser | Yes | No
 Press Keys |
 Select Options By |
-Session Storage Clear |
-Session Storage Get |
-Session Storage Remove |
-Session Storage Set |
+SessionStorage Clear |
+SessionStorage Get |
+SessionStorage Remove |
+SessionStorage Set |
 Set Timeout |
 Set Viewport Size |
 Switch Browser |
@@ -62,3 +62,9 @@ Type Secret |
 Type Text | Yes | No
 Uncheck Checkbox |
 Wait For Elements State | Yes | No | Bug?
+Http |
+Get Element Style / Get Style|
+Get Element |
+Promise To |
+Wait For |
+Wait for All Promises |
