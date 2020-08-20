@@ -1,2 +1,1 @@
 robotframework-browser
-robotframework-seleniumlibrary
